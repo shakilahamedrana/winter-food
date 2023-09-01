@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'lato';
+}
+img{
+    max-width:100%;
+    display: block;
+    height: auto;
+}
+.section-1{
+    background:url( images/moon-1859616_1920.jpg) ;
+    padding: 300px 0px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.section-1 h1{
+    color: red;
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.section-1 h1 span{
+    color: rgb(38, 233, 8);
+    font-size: 75px;
+}
+.section-1 a{
+    color: rgb(219, 244, 0);
+    border: 1px solid rgb(5, 216, 244);
+    text-decoration: none;
+    padding: 10px 30px;
+    text-transform:uppercase;
+    transition: .6s;
+    background: green;
+    
+}
+
+.section-1 a:hover{
+    border-color: chartreuse;
+    color: rgb(24, 241, 0);
+    border-radius: 25px;
+    
+}
+
+.section-2{
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(45deg, red,rgb(225, 174, 4));
+    margin: 100px auto;
+    transition: 1s;
+    transform: skewY(20deg);
+}
+.section-2:hover{
+    box-shadow: 0px 0px 15px rgb(7, 26, 241);
+    
+}
+
+.section-3{
+    width: 250px;
+    height:250px;
+    margin: 100px auto;
+    background: aqua;
+}
+.section-3 img{
+    transition: .4s;
+}
+
+.section-3:hover img{
+    transform: translate(40px, 30px);
+}
+
+.box{
+    width: 600px;
+    height: 350px;
+    background: rgb(70, 215, 2);
+    margin: 100px auto;
+    position: relative;
+}
+
+.inner-box{
+    width: 180px;
+    height: 180px;
+    background: rgb(239, 3, 3);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
